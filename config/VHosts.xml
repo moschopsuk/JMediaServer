@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VHosts>
+    <VHost>
+        <Port>1935</Port>
+        <HTTPProviders>
+            <HTTPProvider>
+                <BaseClass>com.jms.http.HTTPServerVersion</BaseClass>
+                <RequestFilters>*</RequestFilters>
+                <AuthenticationMethod>none</AuthenticationMethod>
+            </HTTPProvider>
+        </HTTPProviders>
+    </VHost>
+</VHosts>

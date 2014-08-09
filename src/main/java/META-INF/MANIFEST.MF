@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Class-Path: log4j-api-2.0-rc1.jar log4j-core-2.0-rc1.jar
+Main-Class: Bootstrap
+
